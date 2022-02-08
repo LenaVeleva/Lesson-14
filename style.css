@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(images/headband.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;}
+.nav-list {
+    padding-top: 45px;
+    padding-bottom: 39px;
+    text-align: center;
+}
+.nav-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.nav-item:last-of-type {
+    margin-right: 0;
+}
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.change:hover {
+    color: #2a0e9b;
+}
+.utility {
+    margin-bottom: 157px;
+}
+.overview-title {
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    padding: 39px 266px 55px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.overview-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 285px;
+}
+.overview-button {
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 17px 52px;
+}
