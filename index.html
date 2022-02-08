@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="style.css">
     <title>CloudBudget</title>
 </head>
 <body>
     <header class="header">
         <div class="utility container">
+            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
             <nav class="navigation">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -33,22 +32,168 @@
                     </li>
                 </ul>
             </nav>
+            <button class="login-button">login</button>
+            <div class="clearfix"></div>
         </div>
         <div class="overview container">
             <h1 class="overview-title">CloudBudget</h1>
             <p class="overview-text">
                 Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99
             </p>
-            <button class="overview-button">
-                Sing up
-            </button>
+            <button class="overview-button">Sing up</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="features">
+            <div class="container">
+                <h2 class="features-body">
+                    Features
+                </h2>
+                <div class="feat-body">
+                    <div class="feat-action">
+                        <figure class="feat-img">
+                            <img class="feat-img-background" src="images/money.jpg" alt="Money and cards">
+                        </figure><!--
+                     --><div class="feat-desc">
+                            <h3 class="feat-name">Supports All Currencies and Cards</h3><!-- 
+                         --><p class="feat-view">We support all popular currencies and is fully customizable to add</p><!--                    
+                         --><a href="#" class="feat-read">Read More</a>
+                        </div>
+                    </div><!--
+                 --><div class="feat-action">
+                        <figure class="feat-img">
+                            <img class="feat-img-background" src="images/tel.jpg" alt="always in touch">
+                        </figure><!--
+                     --><div class="feat-desc">
+                            <h3 class="feat-name">Manage your expenses on the go</h3><!-- 
+                         --><p class="feat-view">You can access your account from anywhere in the world on any device</p><!--                    
+                         --><a href="#" class="feat-read">Read More</a>
+                        </div>
+                    </div><!--
+                 --><div class="feat-action">
+                        <figure class="feat-img">
+                            <img class="feat-img-background" src="images/hall.jpg" alt="always in touch">
+                        </figure> <!--
+                     --><div class="feat-desc">
+                            <h3 class="feat-name">Cloud Budget Management Software</h3><!-- 
+                         --><p class="feat-view">Our software is made so you can access and manage your budget</p><!--                    
+                         --><a href="#" class="feat-read">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech container">
+            <h2 class="tech-title">
+                Technology
+            </h2>
+            <div class="tech-body">
+                <div class="tech-action">
+                    <figure class="tech-img">
+                        <img class="tech-img-background" src="images/01.png" alt="01">
+                        <img class="tech-pic" src="images/loading.png" alt="Загрузка">
+                    </figure><!--    
+                --><h3 class="tech-name">Cloud Storage</h3><!-- 
+                --><p class="tech-view">Access your account from anywhere in the world on any device</p>
+                </div><!--
+            --><div class="tech-action">
+                    <figure class="tech-img">
+                        <img class="tech-img-background" src="images/02.png" alt="02">
+                        <img class="tech-pic" src="images/secure.png" alt="Безопасность">
+                    </figure><!--
+                --><h3 class="tech-name">Secure</h3><!-- 
+                --><p class="tech-view">All your information is stored on secure cloud servers</p>
+                </div><!--
+            --><div class="tech-action">
+                    <figure class="tech-img">
+                        <img class="tech-img-background" src="images/03.png" alt="03">
+                        <img class="tech-pic" src="images/pdf.png" alt="PDF загрузка">
+                    </figure><!--
+                --><h3 class="tech-name">PDF Download</h3><!-- 
+                --><p class="tech-view">Download any of your reports in PDF format</p>
+                </div><!--
+            --><div class="tech-action">
+                    <figure class="tech-img">
+                        <img class="tech-img-background" src="images/04.png" alt="04">
+                        <img class="tech-pic" src="images/CSV.png" alt="CSV загрузка">
+                    </figure><!--
+                --><h3 class="tech-name">CSV Download</h3><!-- 
+                --><p class="tech-view">All your information is stored on secure cloud servers</p>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="extra-links container">
+            <nav class="extra-links-navigation">
+                <ul class="extra-links-list">
+                    <li class="extra-links-item">
+                        <h4 class="extra-links-categ">Address</h4>
+                        <div class="extra-links-variant">
+                            <p class="extra-address">
+                                Pipang Ltd, Griva Digeni,
+                            </p>
+                            <p class="extra-address">
+                                81-83 Jacovides Tower, 1st Floor
+                            </p>
+                            <p class="extra-address">
+                                1090 Picosia USA
+                            </p>
+
+                        </div>
+                    </li><!--
+                --><li class="extra-links-item">
+                        <h4 class="extra-links-categ">Services</h4>
+                        <div class="extra-links-variant">
+                            <ul class="variant-list">
+                                <li class="variant-item"><a href="#" class="variant-option change">overview</a></li><!--целенаправленооставила в один ряд,чтобы наглядней    
+                             --><li class="variant-item"><a href="#" class="variant-option change">features</a></li><!--
+                             --><li class="variant-item"><a href="#" class="variant-option change">technology</a></li><!--
+                             --><li class="variant-item"><a href="#" class="variant-option change">terms & Conditions</a></li><!-- 
+                             --><li class="variant-item"><a href="#" class="variant-option change">privecy</a></li>
+                            </ul>
+                        </div>
+                    </li><!--
+                --><li class="extra-links-item">
+                        <h4 class="extra-links-categ">Get in Touch</h4>
+                        <div class="extra-links-variant">
+                            <p class="extra-mail">
+                                <a href="mailto:info@cloudbudget.com" class="mail change">info@cloudbudget.com</a>
+                            </p>
+                            <p class="extra-tel">
+                                <a href="tel:18447217120" class="tel change">+1 844-721-7120</a>
+                            </p>
+                            <ul class="variant-list">
+                                <li class="footer-soc">
+                                    <a href="#" class="fb social"></a>
+                                </li><!--
+                            --><li class="footer-soc">
+                                    <a href="#" class="in social"></a>
+                                </li><!--
+                            --><li class="footer-soc">
+                                    <a href="#" class="tw social"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li><!--
+                 --><li class="extra-links-item">
+                        <h4 class="extra-links-categ">We Support</h4>
+                        <img src="images/cards.jpg" alt="Mastercard, Visa">
+                    </li>
+                </ul>
+            </nav>
         </div>
 
 
-
-
-
-    </header>
+        
+        <p class="footer-content container">
+            Copyright 2018 CloudBudget
+        </p>
+    </footer>
     
 </body>
 </html>
